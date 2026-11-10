@@ -1,4 +1,4 @@
-ZENKIKI-JPG# polybot — исследование рынков Polymarket
+# polybot — исследование рынков Polymarket
 
 ![tests](https://github.com/zenkiki-jpg/polybot/actions/workflows/tests.yml/badge.svg)
 
