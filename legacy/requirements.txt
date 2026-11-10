@@ -1,0 +1,5 @@
+# только для старого кода в legacy/
+matplotlib>=3.8
+scipy>=1.11
+python-dotenv>=1.0
+py-clob-client

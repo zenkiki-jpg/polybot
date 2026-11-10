@@ -1,0 +1,32 @@
+# --- секреты: НИКОГДА не коммитить ---
+.env
+*.env
+!legacy/live/.env.example
+*.pem
+*.key
+
+# --- собранные данные (гигабайты) и результаты прогонов ---
+/data/
+*.csv
+*.csv.gz
+*.txt
+!requirements*.txt
+*.json
+!.github/**/*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- редакторы и ОС ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
